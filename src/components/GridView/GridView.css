@@ -1,0 +1,33 @@
+.grid-view{
+	background: #aaa;
+	position: relative;
+}
+
+.grid-controls{
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	padding: 10px;
+	background: rgba(0,0,0,0.5);
+	border-radius: 20px;
+	z-index: 20
+}
+
+.grid-controls button{
+	border: none;
+	outline: none;
+	padding: 0;
+	background: #fff;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	display: block
+}
+
+.grid-controls button.grid-control-plus{
+	margin-bottom:5px;
+}
